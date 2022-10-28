@@ -1,0 +1,82 @@
+*
+{
+	margin: 0%;
+	padding: 0%;
+}
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.background
+{
+	background-image: url(Wallpaperxyz.com-5.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: auto; 
+}
+
+.logo img
+{
+	position: absolute;
+	width: 170px;
+	height: auto; 
+}
+
+.nav
+{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	padding-top: 150px;
+}
+
+.nav a
+{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: vardana;
+	font-weight: bold;
+	display: list-item;
+	width: 159px;
+	height: 90px;
+	margin: 5px 0;
+	background-color: #010457;
+	color: #8eba27;
+	line-height: 90px;
+	text-align: center;
+	border-radius: 15px;
+	transition: 300ms;
+}
+
+a.active, .nav a:hover
+{
+	background-color: white;
+	color: green;
+	width: 165px;
+}
+
+.a{
+	width: 95%;
+}
+
+.b{
+	width: 85%;
+}
+
+.c{
+	width: 80%;
+}
+
+.d{
+	width: 90%;
+}
